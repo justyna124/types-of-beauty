@@ -48,12 +48,11 @@ footer {
     height: 120px;
     background-color: #e7c3c3;
 
-
 }
 
 .bgnav {
     background-color: #cdcdcd;
-  height: 1100px;
+    height: 1100px;
 }
 
 .bg {
@@ -70,3 +69,32 @@ figure {
     text-align: center;
     margin-top: 60px;
 }
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    color: #245269;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.sizeimg {
+    height: 300px;
+    width: 900px;
+
+}
+
+article {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 20px;
+    text-align: justify;
+
+}
+
+/*p {*/
+/*font-weight: 400;*/
+/*margin-top: 50px;*/
+/*}*/
