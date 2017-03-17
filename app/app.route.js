@@ -9,7 +9,6 @@
             enabled: true, requireBase: false
         });
 
-
         $routeProvider.when('/', {
             templateUrl: 'home/home.html'
         });
@@ -28,6 +27,11 @@
 
         $routeProvider.when('/winter', {
             templateUrl: 'winter/winter.html'
+        });
+        $routeProvider.when('/color-test', {
+            templateUrl: 'color-test/color-test.html',
+            controller: 'TestController',
+            controllerAs: 'testCtrl'
         });
 
         $routeProvider.otherwise({redirectTo: '/'});
