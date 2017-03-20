@@ -118,10 +118,10 @@ article {
 }
 
 .gold {
-    background-color: goldenrod;
+    background-image: url('images/gold.jpg');;
 }
 .silver {
-    background-color:silver;
+    background-image:url('images/silver.jpg');;
 }
 
 
@@ -130,5 +130,11 @@ article {
     margin-bottom: 50px;
     margin-top: 100px;
 
+
+}
+
+
+.seasons{
+    margin-top: 30px;
 
 }
