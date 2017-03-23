@@ -70,10 +70,12 @@ figure {
     margin-top: 60px;
 
 }
-.types{
+
+.types {
 
     margin-top: 30px;
 }
+
 .title {
     text-align: center;
     margin-top: 50px;
@@ -108,7 +110,6 @@ article {
 
 }
 
-
 .panel-warning {
 
     height: 600px;
@@ -120,21 +121,96 @@ article {
 .gold {
     background-image: url('images/gold.jpg');;
 }
-.silver {
-    background-image:url('images/silver.jpg');;
-}
 
+.silver {
+    background-image: url('images/silver.jpg');;
+}
 
 .panel.panel-warning {
     margin-left: 150px;
     margin-bottom: 50px;
     margin-top: 100px;
 
-
 }
 
-
-.seasons{
+.seasons {
     margin-top: 30px;
 
 }
+
+.colorspring1 {
+
+    background-color: rgb(87, 181, 162);
+
+}
+
+.colorspring2 {
+
+    background-color: rgb(255, 158, 86);
+
+}
+
+.colorspring3 {
+
+    background-color: rgb(243, 169, 164);
+}
+
+.colorsummer1 {
+
+    background-color: rgb(134, 42, 46);
+}
+
+.colorsummer2 {
+
+    background-color: rgb(35, 105, 59);
+}
+
+.colorsummer3 {
+
+    background-color: rgb(106, 66, 83);
+
+}
+
+.colorautumn1 {
+
+    background-color: rgb(0, 131, 110);
+}
+
+.colorautumn2 {
+
+    background-color: rgb(140, 162, 59);
+}
+
+.colorautumn3 {
+
+    background-color: rgb(201, 70, 79);
+}
+
+.colorwinter1 {
+
+    background-color: rgb(114, 47, 46);
+}
+
+.colorwinter2 {
+
+    background-color: rgb(49, 70, 85);
+}
+
+.colorwinter3 {
+
+    background-color: rgb(104, 113, 82);
+}
+
+.marginscolor {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
