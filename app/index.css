@@ -137,6 +137,10 @@ article {
     margin-top: 30px;
 
 }
+.sizebutton{
+    height: 30px;
+    width: 65px;
+}
 
 .colorspring1 {
 
@@ -154,6 +158,38 @@ article {
 
     background-color: rgb(243, 169, 164);
 }
+.colorspring4 {
+
+    background-color:rgb(0, 106, 168);
+}
+
+
+.colorspring5 {
+
+    background-color:rgb(255, 224, 136);
+}
+.colorspring6 {
+
+    background-color: rgb(35, 105, 59);
+}
+.colorspring7 {
+
+     background-color:#CFB095;
+ }
+.colorspring8 {
+
+    background-color: rgb(230, 44, 44) ;
+}
+.colorspring9 {
+
+    background-color:rgb(255, 201, 49) ;
+}
+.colorspring10 {
+
+    background-color:rgb(187, 109, 29) ;
+}
+
+
 
 .colorsummer1 {
 
@@ -170,7 +206,41 @@ article {
     background-color: rgb(106, 66, 83);
 
 }
+.colorsummer4 {
 
+    background-color: rgb(255, 243, 103);
+
+}
+.colorsummer5 {
+
+    background-color: rgb(164, 204, 238);
+
+}
+.colorsummer6 {
+
+    background-color: rgb(187, 122, 212);
+
+}
+.colorsummer7 {
+
+    background-color: rgb(255, 65, 120);
+
+}
+.colorsummer8 {
+
+    background-color: rgb(142, 168, 120);
+
+}
+.colorsummer9 {
+
+    background-color: rgb(79, 213, 188);
+
+}
+.colorsummer10 {
+
+    background-color: rgb(255, 53, 75);
+
+}
 .colorautumn1 {
 
     background-color: rgb(0, 131, 110);
@@ -185,10 +255,37 @@ article {
 
     background-color: rgb(201, 70, 79);
 }
+.colorautumn4 {
 
+    background-color: rgb(255, 206, 127);
+}
+.colorautumn5 {
+
+    background-color: rgb(198, 143, 85);
+}
+.colorautumn6 {
+
+    background-color: rgb(126, 138, 67);
+}
+.colorautumn7 {
+
+    background-color: rgb(255, 166, 118);
+}
+.colorautumn8 {
+
+    background-color: rgb(105, 144, 188);
+}
+.colorautumn9 {
+
+    background-color: rgb(166, 67, 86);
+}
+.colorautumn10 {
+
+    background-color: rgb(99, 104, 95);
+}
 .colorwinter1 {
 
-    background-color: rgb(114, 47, 46);
+    background-color: rgb(48, 89, 42);
 }
 
 .colorwinter2 {
@@ -200,6 +297,35 @@ article {
 
     background-color: rgb(104, 113, 82);
 }
+.colorwinter4 {
+
+    background-color: rgb(255, 255, 255);
+}
+.colorwinter5 {
+
+    background-color: rgb(0, 0, 0);
+}
+.colorwinter6 {
+
+    background-color: rgb(52, 63, 94);
+}
+.colorwinter7 {
+
+    background-color: rgb(148, 148, 148);
+}
+.colorwinter8 {
+
+    background-color: rgb(227, 108, 164);
+}
+.colorwinter9 {
+
+    background-color: rgb(255, 62, 97);
+}
+.colorwinter10 {
+
+    background-color: rgb(238, 255, 138);
+}
+
 
 .marginscolor {
     margin-left: 10px;
