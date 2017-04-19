@@ -1,0 +1,342 @@
+ul, ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+h5 {
+
+    margin-top: 60px;
+    text-align: justify;
+    line-height: 20px;
+
+}
+
+.center {
+    margin-top: 60px;
+    text-align: center;
+
+}
+
+.bgheader {
+    background-color: #e7c3c3;
+
+}
+
+nav {
+    margin-top: 60px;
+
+}
+
+ul li {
+    font-size: 20px;
+    color: #444444;
+    margin-bottom: 20px;
+
+}
+
+footer {
+    height: 120px;
+    background-color: #e7c3c3;
+
+}
+
+.bgnav {
+    background-color: #cdcdcd;
+    height: 1100px;
+}
+
+.bg {
+    background-color: #cdcdcd;
+    height: 200px;
+    width: 262.5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+
+figure {
+
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.types {
+
+    margin-top: 30px;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    color: #245269;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.sizeimg {
+    height: 300px;
+    width: 900px;
+
+}
+
+article {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 20px;
+    text-align: justify;
+
+}
+
+.liv {
+
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+    margin-top: 150px;
+    margin-left: 150px;
+
+}
+
+.panel-warning {
+
+    height: 600px;
+    width: 600px;
+    background-color: silver;
+
+}
+
+.gold {
+    background-image: url('images/gold.jpg');;
+}
+
+.silver {
+    background-image: url('images/silver.jpg');;
+}
+
+.panel.panel-warning {
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+}
+
+.seasons {
+    margin-top: 30px;
+
+}
+.sizebutton{
+    height: 30px;
+    width: 65px;
+}
+
+.colorspring1 {
+
+    background-color: rgb(87, 181, 162);
+
+}
+
+.colorspring2 {
+
+    background-color: rgb(255, 158, 86);
+
+}
+
+.colorspring3 {
+
+    background-color: rgb(243, 169, 164);
+}
+.colorspring4 {
+
+    background-color:rgb(0, 106, 168);
+}
+
+
+.colorspring5 {
+
+    background-color:rgb(255, 224, 136);
+}
+.colorspring6 {
+
+    background-color: rgb(35, 105, 59);
+}
+.colorspring7 {
+
+     background-color:#CFB095;
+ }
+.colorspring8 {
+
+    background-color: rgb(230, 44, 44) ;
+}
+.colorspring9 {
+
+    background-color:rgb(255, 201, 49) ;
+}
+.colorspring10 {
+
+    background-color:rgb(187, 109, 29) ;
+}
+
+
+
+.colorsummer1 {
+
+    background-color: rgb(134, 42, 46);
+}
+
+.colorsummer2 {
+
+    background-color: rgb(35, 105, 59);
+}
+
+.colorsummer3 {
+
+    background-color: rgb(106, 66, 83);
+
+}
+.colorsummer4 {
+
+    background-color: rgb(255, 243, 103);
+
+}
+.colorsummer5 {
+
+    background-color: rgb(164, 204, 238);
+
+}
+.colorsummer6 {
+
+    background-color: rgb(187, 122, 212);
+
+}
+.colorsummer7 {
+
+    background-color: rgb(255, 65, 120);
+
+}
+.colorsummer8 {
+
+    background-color: rgb(142, 168, 120);
+
+}
+.colorsummer9 {
+
+    background-color: rgb(79, 213, 188);
+
+}
+.colorsummer10 {
+
+    background-color: rgb(255, 53, 75);
+
+}
+.colorautumn1 {
+
+    background-color: rgb(0, 131, 110);
+}
+
+.colorautumn2 {
+
+    background-color: rgb(140, 162, 59);
+}
+
+.colorautumn3 {
+
+    background-color: rgb(201, 70, 79);
+}
+.colorautumn4 {
+
+    background-color: rgb(255, 206, 127);
+}
+.colorautumn5 {
+
+    background-color: rgb(198, 143, 85);
+}
+.colorautumn6 {
+
+    background-color: rgb(126, 138, 67);
+}
+.colorautumn7 {
+
+    background-color: rgb(255, 166, 118);
+}
+.colorautumn8 {
+
+    background-color: rgb(105, 144, 188);
+}
+.colorautumn9 {
+
+    background-color: rgb(166, 67, 86);
+}
+.colorautumn10 {
+
+    background-color: rgb(99, 104, 95);
+}
+.colorwinter1 {
+
+    background-color: rgb(48, 89, 42);
+}
+
+.colorwinter2 {
+
+    background-color: rgb(49, 70, 85);
+}
+
+.colorwinter3 {
+
+    background-color: rgb(104, 113, 82);
+}
+.colorwinter4 {
+
+    background-color: rgb(255, 255, 255);
+}
+.colorwinter5 {
+
+    background-color: rgb(0, 0, 0);
+}
+.colorwinter6 {
+
+    background-color: rgb(52, 63, 94);
+}
+.colorwinter7 {
+
+    background-color: rgb(148, 148, 148);
+}
+.colorwinter8 {
+
+    background-color: rgb(227, 108, 164);
+}
+.colorwinter9 {
+
+    background-color: rgb(255, 62, 97);
+}
+.colorwinter10 {
+
+    background-color: rgb(238, 255, 138);
+}
+
+
+.marginscolor {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+

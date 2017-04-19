@@ -1,0 +1,60 @@
+<div class="row">
+    <div class="title">SPRAWDŹ JAKIM JESTEŚ TYPEM URODY</div>
+
+    <div ng-class="testCtrl.testColor" class="panel panel-warning">
+        <form name="myForm">
+            <input type="file" name="myImage" image-with-preview ng-model="image" accept="image/jpeg,image/png">
+  <span class="error" ng-show="myForm.myImage.$error.image">
+    Not a JPEG or a PNG!
+  </span>
+  <span class="error" ng-show="myForm.myImage.$error.dimensions">
+    Invalid dimensions! Expecting a landscape image smaller than 1800x400.
+  </span>
+            <img class="img-thumbnail liv" ng-show="image.src" ng-src="{{image.src}}"/>
+        </form>
+
+
+    </div>
+    <div class="row">
+        <div class="col-md-offset-2">
+            <label>Sprawdź: jesteś chłodnym czy ciepłym typem urody?</label>
+            <button type="button" ng-click="testCtrl.changeTestColor('silver')" class="btn  btn-lg silver">SILVER</button>
+            <button type="button" ng-click="testCtrl.changeTestColor('gold')" class="btn  btn-lg gold ">GOLD</button>
+        </div>
+
+    </div>
+
+    <div class="row col-md-offset-5 seasons">
+
+        <button class="btn btn-success" type="button" ng-show="testCtrl.testColor==='gold'" ng-click="testCtrl.setSeasonColor('springColors')">Wiosna</button>
+        <button class="btn btn-warning" type="button" ng-show="testCtrl.testColor==='silver'" ng-click="testCtrl.setSeasonColor('summerColors')">Lato</button>
+        <button class="btn btn-danger" type="button" ng-show="testCtrl.testColor==='gold'" ng-click="testCtrl.setSeasonColor('autumnColors')">Jesień</button>
+        <button class="btn btn-info" type="button" ng-show="testCtrl.testColor==='silver'" ng-click="testCtrl.setSeasonColor('winterColors')">Zima</button>
+    </div>
+
+    <div class="row size" ng-switch="testCtrl.season">
+        <div class="col-md-offset-2" ng-switch-when="springColors">
+            <button ng-repeat="colour in testCtrl.coloursspring" type="button" ng-click="testCtrl.changeTestColor(colour)" class="btn  btn-md marginscolor sizebutton"
+                    ng-class="colour">Try me
+            </button>
+        </div>
+
+        <div class="col-md-offset-2" ng-switch-when="summerColors">
+            <button ng-repeat="colour in testCtrl.colourssummer" type="button" ng-click="testCtrl.changeTestColor(colour)" class="btn  btn-md marginscolor sizebutton"
+                    ng-class="colour">Try me
+            </button>
+        </div>
+
+        <div class="col-md-offset-2" ng-switch-when="autumnColors">
+            <button ng-repeat="colour in testCtrl.coloursautumn" type="button" ng-click="testCtrl.changeTestColor(colour)" class="btn  btn-md marginscolor sizebutton"
+                    ng-class="colour">Try me
+            </button>
+        </div>
+        <div class="col-md-offset-2" ng-switch-when="winterColors">
+            <button ng-repeat="colour in testCtrl.colourswinter" type="button" ng-click="testCtrl.changeTestColor(colour)" class="btn  btn-md marginscolor sizebutton"
+                    ng-class="colour">Try me
+            </button>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <title>Types of beauty</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body ng-controller="HomeController as homeCtrl">
+<div class="container">
+    <div class="row bgheader">
+        <div class="">
+            <header>
+                <h1>Jak określić typ urody?</h1></header>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-3 bgnav">
+            <nav>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/spring">Wiosna</a></li>
+                    <li><a href="/summer">Lato</a></li>
+                    <li><a href="/autumn">Jesień</a> </li>
+                    <li><a href="/winter">Zima</a></li>
+                    <li><a href="/color-test">Test kolorystyczny</a></li>
+                </ul>
+            </nav>
+
+        </div>
+        <div class="col-md-9">
+            <div ng-view></div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <footer>
+
+        </footer>
+    </div>
+
+</div>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.min.js"></script>
+<script src="bower_components/ng-image-input-with-preview/dist/ng-image-input-with-preview.min.js"></script>
+<script src="app.js"></script>
+<script src="app.route.js"></script>
+<script src="home/home.controller.js"></script>
+<script src="color-test/test-color.controller.js"></script>
+
+</body>
+</html>

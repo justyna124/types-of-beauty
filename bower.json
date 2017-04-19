@@ -1,0 +1,11 @@
+{
+  "name": "types-of-beauty",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "angular": "1.6.2",
+    "angular-route": "1.6.2",
+    "bootstrap": "3.3.7",
+    "ng-image-input-with-preview": "0.0.6"
+  }
+}
