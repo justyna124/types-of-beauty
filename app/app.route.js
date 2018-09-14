@@ -10,26 +10,26 @@
         });
 
         $routeProvider.when('/', {
-            templateUrl: 'home/home.html'
+            templateUrl: './app/home/home.html'
         });
 
         $routeProvider.when('/spring', {
-            templateUrl: 'spring/spring.html'
+            templateUrl: './app/spring/spring.html'
         });
 
         $routeProvider.when('/summer', {
-            templateUrl: 'summer/summer.html'
+            templateUrl: './app/summer/summer.html'
         });
 
         $routeProvider.when('/autumn', {
-            templateUrl: 'autumn/autumn.html'
+            templateUrl: './app/autumn/autumn.html'
         });
 
         $routeProvider.when('/winter', {
-            templateUrl: 'winter/winter.html'
+            templateUrl: '.app/winter/winter.html'
         });
         $routeProvider.when('/color-test', {
-            templateUrl: 'color-test/color-test.html',
+            templateUrl: './app/color-test/color-test.html',
             controller: 'TestController',
             controllerAs: 'testCtrl'
         });
