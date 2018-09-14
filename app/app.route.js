@@ -26,7 +26,7 @@
         });
 
         $routeProvider.when('/winter', {
-            templateUrl: '.app/winter/winter.html'
+            templateUrl: './app/winter/winter.html'
         });
         $routeProvider.when('/color-test', {
             templateUrl: './app/color-test/color-test.html',
