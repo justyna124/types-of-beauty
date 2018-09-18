@@ -3,10 +3,6 @@
 ## init
 ```$xslt
 $ npm i
-$ bower i
+
 ```
 
-## start aplication
-```
-$ grunt
-```
